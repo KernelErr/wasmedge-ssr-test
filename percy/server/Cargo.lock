@@ -231,7 +231,6 @@ dependencies = [
  "parsed",
  "querystring",
  "serde",
- "serde_json",
  "wasmedge_wasi_socket",
 ]
 
