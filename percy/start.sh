@@ -8,5 +8,4 @@ cd ./client
 cp index.html build
 
 cd ../server
-cp app.css ../client/build
-cargo run
+OUTPUT_CSS="$(pwd)/../client/build/app.css" cargo run
